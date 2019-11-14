@@ -1,3 +1,3 @@
 FROM gcr.io/oss-fuzz-base/base-builder
 MAINTAINER 54jin.huang@gmail.com
-RUN apt-get update && apt-get install wget git subversion vim
+RUN apt-get update && apt-get upgrade
